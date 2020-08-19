@@ -1,5 +1,7 @@
-image: gitpod/workspace-full
-
+image:
+  file: .gitpod.Dockerfile
+ports:
+  - port: 3000 # Theia
 tasks:
   - init: 'echo "TODO: Replace with init/build command"'
     command: 'echo "TODO: Replace with command to start project"'
